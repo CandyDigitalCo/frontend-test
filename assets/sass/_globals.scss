@@ -1,0 +1,18 @@
+/**
+  Navigation
+ */
+
+.nuxt-link-exact-active {
+  color: $cd-pink !important;
+  font-weight: bold;
+  border-left: solid 3px $cd-pink !important;
+  background: $nav-background-active;
+}
+
+/**
+  Utils
+ */
+
+.clickable:hover {
+  cursor: pointer;
+}
